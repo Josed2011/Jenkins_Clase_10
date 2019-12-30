@@ -11,12 +11,12 @@ pipeline {
   stages {
     stage('Install dependencies') {
       steps {
-        'cd jenkins-tests && npm i'
+        cd jenkins-tests && npm i
       }
     }
     stage('Run tests') {
       steps {
-        'cd jenkins-tests && npm t'
+        cd jenkins-tests && npm t
       }
     }
   }
