@@ -9,6 +9,6 @@ describe('Sum', () => {
     assert.equal(sum(3, -7), -4);
   });
   it('should handle decimals', () => {
-    assert.equal(sum(3.5, 7.1), 10.6);
+    assert.equal(sum(3.5, 6.2), 9.7);
   });
 });
